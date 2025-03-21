@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.section-one {
+    width: 100%;
+    height: 50vh;
+    
+    background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('cat5.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+}
+
+.section-two {
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 500px;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+p{
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+}
+
+@media (max-width:1024px) {
+    .section-three {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px) {
+    .section-four {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form {
+    flex: 1;
+    padding-right: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info {
+    flex: 1;
+    color: #2d7f45;
+}
+
+.contact-info h2 {
+    color: #2d7f45;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons span {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.map-section {
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.faqs {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.faqs h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.faqs p {
+    font-size: 16px;
+    color: #666;
+}
+
+.faqs {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.faqs h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.faq-item {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    background: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.faq-question:hover {
+    background: #e0e0e0;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background: #ffffff;
+    text-align: left;
+    border-top: 1px solid #ccc;
+}
