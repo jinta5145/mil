@@ -10,10 +10,11 @@
     width: 100%;
     height: 50vh;
     
-    background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('cat5.jpg') ;
+    background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('nature.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 header {
